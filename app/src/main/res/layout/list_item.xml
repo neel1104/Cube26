@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="train_no"
+            android:id="@+id/train_no"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="train name"
+            android:id="@+id/train_name"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="journey_time"
+            android:id="@+id/journey_time"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="src_station"
+            android:id="@+id/src_station"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="dest_station"
+            android:id="@+id/dest_station"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="arrival_time"
+            android:id="@+id/arrival_time"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="departure_time"
+            android:id="@+id/departure_time"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
